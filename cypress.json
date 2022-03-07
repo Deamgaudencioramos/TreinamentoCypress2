@@ -1,0 +1,5 @@
+{
+    "chromeWebSecurity": true,
+    "baseUrl":"https://automacaocombatista.herokuapp.com/treinamento/home",
+    "testFiles":"**/*spec.js"
+}
