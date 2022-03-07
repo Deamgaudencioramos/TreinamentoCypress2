@@ -5,7 +5,7 @@ beforeEach(() => {
 
 });
 
-it.only('Deve criar um usuario via Iframe', () => {
+it('Deve criar um usuario via Iframe', () => {
     criarUsuarioIframe();
 });
 

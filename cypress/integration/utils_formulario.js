@@ -33,7 +33,7 @@ export function criarUsuarioIframe(){
     cy.iframe('[id="id_do_iframe"]').find('a[tabindex="0"][class="collapsible-header "]').click();
     cy.iframe('[id="id_do_iframe"]').find('a[href="/users/new"]').click({force: true});
     cy.wait(1000)
-    cy.iframe('[id="id_do_iframe"]').find('div[class="col s6"] input[id="user_name"]').click().type('deam');
+    cy.iframe('[id="id_do_iframe"]').find('input[id="user_name"]').click().type('deam');
     cy.iframe('[id="id_do_iframe"]').find('div[class="col s6"] input[id="user_lastname"]').click().type('gaudencio');
     cy.iframe('[id="id_do_iframe"]').find('div[class="col s6"] input[id="user_email"]').click().type('teste@teste.com.br');
     cy.iframe('[id="id_do_iframe"]').find('div[class="col s6"] input[id="user_address"]').click().type('rua do teste 123');
